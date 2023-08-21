@@ -1,0 +1,10 @@
+Admin login
+
+mail: admin@gmail.com
+pass: 123
+
+
+user login
+
+mail: raja@gmail.com
+pass: 123

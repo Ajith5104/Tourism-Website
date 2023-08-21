@@ -1,0 +1,111 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+* {
+  margin: 0;
+  padding: 3;
+  box-sizing: border-box;
+  /*background-image: url('https://giphy.com/gifs/waterfall-vSO1hQUdzBu0w');*/
+}
+h3
+{
+  font-weight: bold;
+}
+.audio {
+  position: relative;
+  top: 40%;
+  background-color: linear-gradient(rgb(42, 87, 31), rgb(0, 213, 255));
+  opacity: 10%;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:red;
+}
+form {
+  font-family: Calibri;
+  width: 50%;
+  height: 75%;
+  display: flex;
+  position: absolute;
+  margin: 200px;
+  padding: 40px;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 8px 8px rgba(192, 192, 192, 0.9);
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+form:before {
+  content: "";
+  position: relative;
+  bottom: 0.2%;
+  right: 0.1%;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(rgb(145, 2, 26), violet);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.9;
+}
+form:after {
+  content: "";
+  position: absolute;
+  top: -0.3%;
+  left: 1%;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(rgb(145, 2, 26), violet);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+input {
+  width: 50%;
+  margin-right: 10%;
+  border-radius: 10px;
+  border-color: rgba(13, 31, 232, 0.06);
+  border-bottom: 3px solid turquoise;
+  outline: none;
+  color: white;
+  font-family: Calibri;
+  background: transparent;
+  flood-opacity: 0.4;
+}
+
+button {
+  padding: 2px;
+  margin: 4px auto;
+  margin-top: 10px;
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(238, 0, 255), pink);
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 2px 3px purple;
+  box-shadow: 2px 3px;
+  font-family: Century Gothic;
+  font-size: 15px;
+  transition: width 2s;
+}
+
+buton:hover {
+  width: 5px;
+}
+a {
+  font-size: 12px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(202, 20, 74);
+}

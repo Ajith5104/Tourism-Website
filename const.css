@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(222, 242, 242);
+}
+#hov {
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  width: 70%;
+  margin: 1px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  animation: day1 0.5ms ease;
+}
+@keyframes day1 {
+  0% {
+    transform: translateY(-150%);
+    transition: all 1.1s ease;
+  }
+}
+.imag {
+  width: 470px;
+  height: 290px;
+}
+.imag img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+table {
+  width: 90%;
+}
+label {
+  text-transform: uppercase;
+  margin-bottom: 3.1%;
+}
+
+input {
+  padding-right: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 3.1%;
+}
+
+.inputs {
+  color: rgb(74, 30, 206);
+}

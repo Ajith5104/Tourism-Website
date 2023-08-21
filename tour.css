@@ -1,0 +1,23 @@
+.family {
+  padding: 10px;
+  color: whitesmoke;
+  background-color: rgb(147, 27, 135);
+  border-radius: 50px;
+}
+
+.kerala {
+  background-color: rgb(55, 98, 98);
+}
+.maldives {
+  background-color: rgb(55, 98, 98);
+}
+#table {
+  margin: 20px;
+}
+h4 {
+  color: red;
+}
+.head4 {
+  color: green;
+  padding-top: 10px;
+}
